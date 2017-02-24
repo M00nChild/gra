@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="5770078266017694">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8731747672220991" type="Mouse">
+                    <param id="0" name="Object">button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="9554671274533001" type="button">
+                    <param id="0" name="Width">350</param>
+                    <param id="1" name="Height">150</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7025285297583542">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="6428782163179027" type="Mouse">
+                    <param id="0" name="Object">button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="9713023561126285" type="button">
+                    <param id="0" name="Width">385</param>
+                    <param id="1" name="Height">165</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9055050785203808">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1472872990329607" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="5948707718736371" type="Mouse">
+                    <param id="0" name="Cursor style">7</param>
+                </action>
+                <action id="-1" name="Set X" sid="430471341348329" type="tworcy">
+                    <param id="0" name="X">2120</param>
+                </action>
+                <action id="-1" name="Set X" sid="337942359061883" type="start">
+                    <param id="0" name="X">-200</param>
+                </action>
+                <action id="-1" name="Set X" sid="551408948441464" type="wyjscie">
+                    <param id="0" name="X">-200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6815994142834875">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7240674593437309" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="7853052781499897" type="cursor">
+                    <param id="0" name="X">Mouse.X</param>
+                    <param id="1" name="Y">Mouse.Y</param>
+                </action>
+                <action id="-1" name="Set X" sid="264517441209709" type="start">
+                    <param id="0" name="X">Self.X + (900 - Self.X)/10</param>
+                </action>
+                <action id="-1" name="Set X" sid="862565611655215" type="wyjscie">
+                    <param id="0" name="X">Self.X + (900 - Self.X)/10</param>
+                </action>
+                <action id="-1" name="Set X" sid="949808623187928" type="tworcy">
+                    <param id="0" name="X">Self.X + (870 - Self.X)/10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9551484561239022">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7999494269438338" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1653247368789043" type="System">
+                    <param id="0" name="Layout">gra</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5828986352955701">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6302888883719577" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">wroc</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5431974045157837" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="379713644348672">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="851609243873180" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tworcy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="601230788271264" type="System">
+                    <param id="0" name="Layout">tworcy</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

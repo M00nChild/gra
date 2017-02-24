@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>LAYOUT MENU</name>
+    <description>By RedFoc</description>
+    <version>1.0.0.0</version>
+    <author>RedFoc</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>RedFoc.Tutorial</app-id>
+    <unique-id>16aqrjznb87vz</unique-id>
+    <saved-with-version>23900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">NW.js</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="1170948036682567">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7088830485103878" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Prett\Desktop\tlo.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tworcy" sid="3543781340068946">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8216923778372091" speed="5">
+                    <frame duration="1" hotspotX="0.457778" hotspotY="0.485" original-source="C:\Users\Prett\Desktop\flatDark\flatDark10.png">
+                        <collision-poly>
+                            <point x="0.156069" y="0.165714" />
+                            <point x="0.450867" y="0.0114286" />
+                            <point x="0.797688" y="0.12" />
+                            <point x="0.988439" y="0.485714" />
+                            <point x="0.820809" y="0.874286" />
+                            <point x="0.450867" y="0.988571" />
+                            <point x="0.127168" y="0.834286" />
+                            <point x="0.00578035" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="start" sid="7646019063504225">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1195334988041839" speed="5">
+                    <frame duration="1" hotspotX="0.542222" hotspotY="0.395" original-source="C:\Users\Prett\Desktop\flatDark\flatDark10.png">
+                        <collision-poly>
+                            <point x="0.14375" y="0.14375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85625" y="0.85625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.14375" y="0.85625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wyjscie" sid="9668586306643863">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7921821497233554" speed="5">
+                    <frame duration="1" hotspotX="0.528889" hotspotY="0.51" original-source="C:\Users\Prett\Desktop\flatDark\flatDark10.png">
+                        <collision-poly>
+                            <point x="0.195402" y="0.137143" />
+                            <point x="0.528736" y="0.0114286" />
+                            <point x="0.83908" y="0.16" />
+                            <point x="0.988506" y="0.502857" />
+                            <point x="0.83908" y="0.851429" />
+                            <point x="0.528736" y="0.988571" />
+                            <point x="0.183908" y="0.885714" />
+                            <point x="0.0114943" y="0.502857" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="6817201939775474">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="cursor" sid="1545344874932947">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9920366718041514" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Pictures\cursor.png">
+                        <collision-poly>
+                            <point x="0.222222" y="0.25" />
+                            <point x="0.5" y="0.275" />
+                            <point x="0.755556" y="0.275" />
+                            <point x="1" y="0.5" />
+                            <point x="0.733333" y="0.7" />
+                            <point x="0.5" y="0.7" />
+                            <point x="0.211111" y="0.7625" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wroc" sid="7343043402236406">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9136175724479544" speed="5">
+                    <frame duration="1" hotspotX="0.433333" hotspotY="0.504" original-source="C:\Users\Prett\Desktop\flatDark\flatDark10.png">
+                        <collision-poly>
+                            <point x="0.137479" y="0.19806" />
+                            <point x="0.428638" y="0.0231041" />
+                            <point x="0.799721" y="0.124691" />
+                            <point x="0.982409" y="0.502822" />
+                            <point x="0.799721" y="0.880952" />
+                            <point x="0.428638" y="0.982539" />
+                            <point x="0.126061" y="0.818871" />
+                            <point x="0.0118818" y="0.502822" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="824427083136633">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822867665840760" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="C:\Users\Prett\Desktop\tyer.gif" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="988910177422887">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="369200144516987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Prett\Desktop\tlo - Copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="364481482504455">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664578308305877" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="668947086563081">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="395052908396330" speed="5">
+                    <frame duration="1" hotspotX="0.510417" hotspotY="0.510417" original-source="C:\Users\Prett\Desktop\flatDark\flatDark01.png">
+                        <collision-poly>
+                            <point x="0.148148" y="0.148148" />
+                            <point x="0.5" y="0.00617284" />
+                            <point x="0.845679" y="0.154321" />
+                            <point x="0.993827" y="0.5" />
+                            <point x="0.851852" y="0.851852" />
+                            <point x="0.5" y="0.993827" />
+                            <point x="0.148148" y="0.851852" />
+                            <point x="0.00617284" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PAC" sid="199972162611262">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="981674974954654">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667234694688691" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.5122" original-source="C:\Users\Prett\Desktop\TWORCY\pac.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="KAC" sid="134888982157110">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="670116039103859">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="430590420038146">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="664175745472886">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="231596592241361" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.54321" original-source="C:\Users\Prett\Desktop\TWORCY\kac.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WOJ" sid="747845106564143">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="120651746056091">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378593105644202" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.54321" original-source="C:\Users\Prett\Desktop\TWORCY\fil.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="JAC" sid="797115732690685">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="992799414826993">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638085749953374" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.54321" original-source="C:\Users\Prett\Desktop\TWORCY\jac.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SUD" sid="802094831659468">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="874305948720896">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="158660961680171" speed="5">
+                    <frame duration="1" hotspotX="0.500914" hotspotY="1.52439" original-source="C:\Users\Prett\Desktop\TWORCY\sud.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="734567146437110">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301756151937808" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Prett\Desktop\tlo.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="582332890299820">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526888009008430" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Prett\Desktop\pacio.png">
+                        <collision-poly>
+                            <point x="0.00120192" y="0.0121951" />
+                            <point x="0.998798" y="0.0121951" />
+                            <point x="0.998798" y="0.987805" />
+                            <point x="0.00120192" y="0.987805" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="700148039804234">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666005673607559" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="618893526925806">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="681748297410959">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="740586191776093" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="164615132985158">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite2" sid="362307693500949">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="795225219301796" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Prett\Desktop\rand\20150219_220826.jpg">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="button" plugin-id="Sprite" sid="2324699084173253">
+            <members>
+                <member>start</member>
+                <member>tworcy</member>
+                <member>wyjscie</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>menu.xml</layout>
+        <layout>gra.xml</layout>
+        <layout>tworcy.xml</layout>
+        <layout>tworcy v2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="5" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
